@@ -1,8 +1,8 @@
 /* Webpage styling
     Determine your color scheme, change these colors to match
-    Background color:   white #ffffff
-    Main block color:   rose  #e7717d
-    Secondary color:    orange #ffb198
+    Background color:   purple #892CDC
+    Main block color:   light purple #bc6ff1
+    Secondary color:    black #000000
     Accent 1 color:     
     Accent 2 color:     
 */
@@ -41,21 +41,21 @@
 
 /* Text editting */
 body {
-    background-color: #ffffff;
+    background-color: #892CDC;
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
-    color: #545454;
+    font-family: 'OCR A Std', 'monospace', Geneva, Verdana, sans-serif;
+    color: #55136e;
 }
 
 p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    font-family:  'OCR A Std', 'monospace', Geneva, Verdana, sans-serif;
 }
 
 /* Top section of the webpage */
 .header {
-    background-color: #ffb198;   /* Use Secondary color */
+    background-color: #bc6ff1;   /* Use Secondary color */
     color: #ffffff;
     text-align: center;
     font-size: 32px;
@@ -71,10 +71,10 @@ p {
 }
 
 .menu a {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:  'OCR A Std', 'monospace', Geneva, Verdana, sans-serif;
     text-decoration: none;
     color: #ffffff;
-    background-color: #e7717d;   /* Use Main block color */
+    background-color: #892CDC;   /* Use Main block color */
     padding: 8px;
     margin-bottom: 5px;
     margin-left: auto;
@@ -85,22 +85,22 @@ p {
 }
 
 .menu a:hover {
-    background-color: #ffb198;   /* Use Secondary color */
+    background-color: #bc6ff1;   /* Use Secondary color */
 }
 
 /* Set the color for the "back to top" links */
 .home a {
-    color: #ffb198;   /* Use Secondary color */
+    color: #bc6ff1;   /* Use Secondary color */
     text-decoration: none;
 }
 
 .home a:hover {
-    color: #e7717d;   /* Use Main Block color */
+    color: #892CDC;   /* Use Main Block color */
 }
 
 /* Bottom section of the webpage */
 .footer {
-    background-color: #e7717d;   /* Use Main Block color */
+    background-color: #892CDC;   /* Use Main Block color */
     color: #ffffff;
     text-align: center;
     font-size: 12px;
